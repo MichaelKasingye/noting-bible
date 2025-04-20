@@ -20,7 +20,7 @@ export default function Home() {
     <div className="min-h-screen bg-gray-100">
       <header className="bg-blue-800 text-white py-6">
         <div className="container mx-auto px-4">
-          <h1 className="text-3xl font-bold">Bible Chapter Videos</h1>
+          <h1 className="text-3xl font-bold">Noting Bible Chapter Videos</h1>
           <p className="mt-2">Explore the Bible through video explanations</p>
         </div>
       </header>
