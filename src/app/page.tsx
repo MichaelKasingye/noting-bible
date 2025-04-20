@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { verses } from "../data/verses";
+import { verses } from "../data/OT-verses";
 import VerseCard from "../components/VerseCard";
 import SearchBar from "@/components/SearchBar";
 
@@ -44,7 +44,8 @@ export default function Home() {
 
       <footer className="bg-gray-800 text-white py-6">
         <div className="container mx-auto px-4 text-center">
-          <p>© {new Date().getFullYear()} Bible Noting Chapter Videos</p>
+          {/* <p>© {new Date().getFullYear()} Bible Noting Chapter Videos</p> */}
+          <p>{new Date().getFullYear()} Bible Noting Chapter Videos</p>
         </div>
       </footer>
     </div>
