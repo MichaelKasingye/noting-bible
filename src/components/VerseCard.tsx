@@ -26,6 +26,8 @@ const VerseCard: React.FC<VerseCardProps> = ({ verse }) => {
         className="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer transform transition-transform hover:scale-105"
         onClick={handleCardClick}
       >
+                  <h2 className="p-4 text-xl font-bold text-gray-800 mb-2">{verse.title}</h2>
+
         {videoId && (
           <div className="relative h-48 w-full">
             <Image
@@ -61,7 +63,6 @@ const VerseCard: React.FC<VerseCardProps> = ({ verse }) => {
         )}
 
         <div className="p-4">
-          <h2 className="text-xl font-bold text-gray-800 mb-2">{verse.title}</h2>
           <div className="text-gray-600 mb-4 line-clamp-2 h-12 overflow-hidden">
             {verse.description}
           </div>
